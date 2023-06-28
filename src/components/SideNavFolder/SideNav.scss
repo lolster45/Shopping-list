@@ -1,0 +1,60 @@
+.side-nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    height: 100vh;
+    width: 5%;
+    padding-bottom: 20px;
+    background-color: white;
+    @media (max-width: 460px) {
+        width: 13%;
+    }
+
+    
+
+    .profile {
+        height: 33.33%;
+        padding-top: 10px;
+    }
+
+    .nav-btns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        height: 33.33%;
+
+        > a {
+            color: rgb(34, 34, 34);
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            &:hover {
+                color: rgb(87, 86, 86);
+            }
+        }
+    }
+
+    .cart {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        height: 33.33%;
+
+        >span {
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 35px;
+            width: 35px;
+            border-radius: 50%;
+            font-size: 1.1rem;
+            color: white;
+            background-color: orange;
+            
+        }
+
+    }
+}

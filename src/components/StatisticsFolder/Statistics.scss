@@ -1,0 +1,23 @@
+.statics-page-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 10px;
+    height: 100vh;
+    overflow-y: scroll;
+    font-size: 0.9rem;
+
+    >h1 {
+        margin-left: 40px;
+        font-size: 1.5rem;
+        &:last-of-type {
+            margin-top: 60px;
+        }
+    }
+
+
+    .recharts-wrapper{
+        margin-top: 40px;
+    }
+}
